@@ -1,3 +1,7 @@
 /*Mixins*/
 
 @import '_variables.scss';
+
+@mixin bg-grey {
+	background-color: $grey;
+}
