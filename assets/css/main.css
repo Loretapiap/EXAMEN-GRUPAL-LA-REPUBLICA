@@ -1,12 +1,19 @@
 /*colores redes sociales*/
 /*Mixins*/
 /*colores redes sociales*/
+/*redes*/
 /*Globals*/
+.pd-1 {
+  padding: 1%; }
+
 .pd-3 {
   padding: 3%; }
 
 .pd-5 {
   padding: 5%; }
+
+.pd-7 {
+  padding: 7%; }
 
 .pd-10 {
   padding: 10%; }
@@ -17,12 +24,38 @@
 .pt-5 {
   padding-top: 5%; }
 
-.ml-3 {
-  margin-left: 300px; }
+.pb-3 {
+  padding-bottom: 3%; }
+
+.pb-5 {
+  padding-bottom: 5%; }
 
 /*Header*/
 header {
-  background-color: #f4f5f7; }
+  background-color: #f4f5f7;
+  text-transform: uppercase;
+  display: inline; }
+  header small {
+    font-weight: bold; }
+  header p {
+    float: left; }
+  header .fa-facebook {
+    color: #255a84; }
+  header .fa-twitter {
+    color: #41b8e0; }
+  header .fa-google-plus {
+    color: #a84c4f; }
+  header .fa-envelope {
+    color: #febf00; }
+  header .fa-rss {
+    color: #e38a48; }
+
+.col-md-12 nav {
+  background-color: #d30000;
+  border-radius: 4px;
+  width: 100%; }
+  .col-md-12 nav button {
+    background-color: #d30000; }
 
 /*Footer*/
 footer {

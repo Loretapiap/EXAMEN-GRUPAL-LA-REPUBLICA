@@ -5,3 +5,36 @@
 @mixin bg-grey {
 	background-color: $grey;
 }
+
+@mixin nav-red {
+	background-color: $red;
+	border-radius: 4px;
+	width: 100%;
+}
+
+@mixin btn-rd {
+	background-color: $red;
+}
+
+/*redes*/
+
+@mixin fb {
+	color: $fb;
+}
+
+@mixin tw {
+	color: $tw;
+}
+
+@mixin gp {
+	color: $gp;
+}
+
+@mixin mail {
+	color: $mail;
+}
+
+@mixin rss {
+	color: $rss;
+}
+
