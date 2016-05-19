@@ -1,12 +1,4 @@
 /*Header*/
 header {
-<<<<<<< HEAD
-	.bg {
-		@include bg;
-		background-image:url("../../../image/banner_top.jpg");
-	}
+@include bg-grey;
 }
-=======
-	@include bg-grey;
-}
->>>>>>> 02d3cda8b85816397e5e3aa4bb3b8fe51005f503

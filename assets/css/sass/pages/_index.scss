@@ -1,1 +1,41 @@
 /*Contacto*/
+.home {
+	h1 {
+		font-weight: $weight;
+	}
+	li {
+	display: inline-block;
+	}
+	.nav {
+		list-style-type: circle;
+		a {
+			color:$oscuro;
+			&:hover {
+				color: $red-lg;
+			}
+		}
+	}
+	.bg-negro {
+		font-size: 20px;
+		background-color: $oscuro;
+		color: $blanco;
+	}
+	.bg-jne {
+		padding-top: 84%;
+		@include bg-image-grid;
+		background-image: url("../image/img_grid_principal.jpg");
+		p {
+			font-size: 30px;
+		}
+	}
+	.bg-martin {
+		padding-top: 36%;
+		@include bg-image-grid;
+		background-image: url("../image/img_grid_secundario.jpg");
+	}
+	.bg-sub-20 {
+		padding-top: 44%;
+		@include bg-image-grid;
+		background-image: url("../image/img_grid_especiales.jpg");
+	}
+}
