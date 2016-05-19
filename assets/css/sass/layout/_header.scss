@@ -1,1 +1,7 @@
 /*Header*/
+header {
+	.bg {
+		@include bg;
+		background-image:url("../../../image/banner_top.jpg");
+	}
+}

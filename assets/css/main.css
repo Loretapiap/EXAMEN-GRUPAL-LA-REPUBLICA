@@ -3,6 +3,13 @@
 /*colores redes sociales*/
 /*Globals*/
 /*Header*/
+header .bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 100px;
+  background-image: url("../../../image/banner_top.jpg"); }
+
 /*Footer*/
 /*media queries*/
 /*Contacto*/
