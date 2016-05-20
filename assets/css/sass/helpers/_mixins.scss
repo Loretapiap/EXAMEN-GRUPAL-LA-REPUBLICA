@@ -53,3 +53,9 @@
 		text-shadow: -2px 1px 0px white;
 	}
 }
+@mixin float-left {
+	content:"";
+	display: block;
+	clear: both;
+	box-sizing: border-box;
+}
