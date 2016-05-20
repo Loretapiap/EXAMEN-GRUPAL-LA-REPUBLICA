@@ -81,15 +81,13 @@ footer {
 /*media queries*/
 /*index*/
 .home h1 {
-  font-weight: 800; }
+  font-weight: 600; }
 .home li {
   display: inline-block; }
-.home .nav {
-  list-style-type: circle; }
-  .home .nav a {
-    color: #101417; }
-    .home .nav a:hover {
-      color: #d90000; }
+.home .nav a {
+  color: #101417; }
+  .home .nav a:hover {
+    color: #d90000; }
 .home .bg-negro {
   font-size: 20px;
   background-color: #101417;
@@ -132,6 +130,16 @@ footer {
     font-weight: 600;
     font-size: 20px;
     text-shadow: -2px 1px 0px white; }
+.home .galeria-red {
+  background-color: #d30000;
+  font-size: 25px; }
+.home .grey-galeria .col-md-2 {
+  background-color: #f4f5f7; }
+.home .grey-galeria a, .home .grey-galeria h6 {
+  color: #101417; }
+.home .top {
+  border-top: 5px solid #d30000;
+  padding-bottom: 5%; }
 
 /*Parte baja de index*/
 .nw {
