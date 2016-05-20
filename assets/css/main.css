@@ -5,6 +5,9 @@
 /*estilos*/
 /*redes*/
 /*Globals*/
+.pd-0 {
+  padding: 0; }
+
 .pd-1 {
   padding: 1%; }
 
@@ -76,7 +79,7 @@ footer {
     border-top: 3px ridge white; }
 
 /*media queries*/
-/*Contacto*/
+/*index*/
 .home h1 {
   font-weight: 800; }
 .home li {
@@ -129,6 +132,41 @@ footer {
     font-weight: 600;
     font-size: 20px;
     text-shadow: -2px 1px 0px white; }
+
+/*Parte baja de index*/
+.nw {
+  position: relative;
+  border: 1px solid grey;
+  padding: 0; }
+  .nw h4 {
+    color: #d30000;
+    position: relative;
+    z-index: 1001;
+    font-weight: bold; }
+  .nw .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.1);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.1) 36%, black 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(36%, white), color-stop(100%, black));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1) 36%, black 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0.1) 36%, black 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.1) 36%, black 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 36%, black 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000', GradientType=0 ); }
+    .nw .overlay .tx-up {
+      position: absolute;
+      color: white;
+      bottom: 0; }
+
+/*Aside*/
+.boletin {
+  background-image: url(../../../../image/trama_square.jpg);
+  background-repeat: repeat; }
 
 /*Contacto*/
 /*Columnista*/

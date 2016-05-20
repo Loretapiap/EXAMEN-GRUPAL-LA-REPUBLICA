@@ -1,4 +1,4 @@
-/*Contacto*/
+/*index*/
 .home {
 	h1 {
 		font-weight: $weight;
@@ -38,4 +38,37 @@
 		@include bg-image-grid;
 		background-image: url("../image/img_grid_especiales.jpg");
 	}
+}
+
+/*Parte baja de index*/
+
+.nw {position: relative; border: 1px solid grey; padding: 0;
+	h4 {@include red; position: relative; z-index: 1001; font-weight: bold;}
+
+
+  .overlay{
+  	.tx-up {position: absolute; color: white; bottom: 0;}
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba(255,255,255,0.1);
+background: -moz-linear-gradient(top, rgba(255,255,255,0.1) 36%, rgba(0,0,0,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(36%, rgba(255,255,255,1)), color-stop(100%, rgba(0,0,0,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,0.1) 36%, rgba(0,0,0,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,0.1) 36%, rgba(0,0,0,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,0.1) 36%, rgba(0,0,0,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,0.1) 36%, rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000', GradientType=0 );
+}
+
+}
+
+/*Aside*/
+
+.boletin {
+	background-image: url(../../../../image/trama_square.jpg);
+	background-repeat: repeat;
 }

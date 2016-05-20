@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAOA,0BAA0B;ACP1B,UAAU;ADOV,0BAA0B;AEP1B,WAAW;ACAX,UAAU;AAET,UAAI;EFGJ,mBAAmB,EAAE,MAAM;EAC3B,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,IAAI;EACrB,UAAU,EAAE,KAAK;EEJhB,gBAAgB,EAAC,oCAAoC;;ACJvD,UAAU;ACAV,iBAAiB;ACAjB,YAAY;ACAZ,YAAY;ACAZ,cAAc;ACAd,QAAQ",
-"sources": ["helpers/_variables.scss","helpers/_mixins.scss","base/_global.scss","layout/_header.scss","layout/_footer.scss","layout/_responsive.scss","pages/_index.scss","pages/_contact.scss","pages/_column.scss","pages/_blog.scss"],
-"names": [],
-"file": "main.css"
-}
