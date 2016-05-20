@@ -1,6 +1,8 @@
 /*colores redes sociales*/
+/*estilos*/
 /*Mixins*/
 /*colores redes sociales*/
+/*estilos*/
 /*redes*/
 /*Globals*/
 .pd-1 {
@@ -30,6 +32,12 @@
 .pb-5 {
   padding-bottom: 5%; }
 
+.p-l-t {
+  padding: 1% 2%; }
+
+.ml-3 {
+  margin-left: 300px; }
+
 /*Header*/
 header {
   background-color: #f4f5f7;
@@ -50,11 +58,11 @@ header {
   header .fa-rss {
     color: #e38a48; }
 
-.col-md-12 nav {
+.col-md-16 nav {
   background-color: #d30000;
   border-radius: 4px;
   width: 100%; }
-  .col-md-12 nav button {
+  .col-md-16 nav button {
     background-color: #d30000; }
 
 /*Footer*/
@@ -69,6 +77,59 @@ footer {
 
 /*media queries*/
 /*Contacto*/
+.home h1 {
+  font-weight: 800; }
+.home li {
+  display: inline-block; }
+.home .nav {
+  list-style-type: circle; }
+  .home .nav a {
+    color: #101417; }
+    .home .nav a:hover {
+      color: #d90000; }
+.home .bg-negro {
+  font-size: 20px;
+  background-color: #101417;
+  color: #ffffff; }
+.home .bg-jne {
+  padding-top: 84%;
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-image: url("../image/img_grid_principal.jpg"); }
+  .home .bg-jne p {
+    padding: 0% 2%;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: -2px 1px 0px white; }
+  .home .bg-jne p {
+    font-size: 30px; }
+.home .bg-martin {
+  padding-top: 36%;
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-image: url("../image/img_grid_secundario.jpg"); }
+  .home .bg-martin p {
+    padding: 0% 2%;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: -2px 1px 0px white; }
+.home .bg-sub-20 {
+  padding-top: 44%;
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-image: url("../image/img_grid_especiales.jpg"); }
+  .home .bg-sub-20 p {
+    padding: 0% 2%;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: -2px 1px 0px white; }
+
 /*Contacto*/
 /*Columnista*/
 /*Blog*/

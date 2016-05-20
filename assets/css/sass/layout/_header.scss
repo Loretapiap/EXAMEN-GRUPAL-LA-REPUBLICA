@@ -14,7 +14,7 @@ header {
 			.fa-rss {@include rss;}
 }
 
-.col-md-12 nav{
+.col-md-16 nav{
 	@include nav-red;
 	button {@include btn-rd;}
 }
