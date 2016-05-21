@@ -1,1 +1,7 @@
 /*Blog*/
+.col-xs-5 {
+	@include float-left;
+	border:1px solid $grey;
+	div {background-color:$grey;}
+
+}

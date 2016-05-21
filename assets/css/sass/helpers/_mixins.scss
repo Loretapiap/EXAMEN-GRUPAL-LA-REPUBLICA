@@ -41,18 +41,6 @@
 @mixin rss {
 	color: $rss;}
 
-@mixin bg-image-grid {
-	background-size: 100%;
-	background-position:top center;
-	background-repeat: no-repeat;
-	p {
-		padding: 0% 2%;
-		color: $blanco;
-		font-weight: 600;
-		font-size: 20px;
-		text-shadow: -2px 1px 0px white;
-	}
-}
 @mixin float-left {
 	content:"";
 	display: block;

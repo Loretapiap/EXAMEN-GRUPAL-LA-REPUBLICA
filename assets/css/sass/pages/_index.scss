@@ -3,6 +3,7 @@ li {display: inline-block;}
 .home {
 	h1 {font-weight: $weight;}
 	.nav {
+		.bg-negro {background-color: $oscuro;color:$blanco;padding:1% 6%;} 
 		a {
 			color:$oscuro;
 			&:hover {
@@ -10,50 +11,43 @@ li {display: inline-block;}
 			}
 		}
 	}
-	.bg-negro {
-		font-size: 20px;
-		background-color: $oscuro;
-		color: $blanco;
-	}
-	.bg-jne {
-		padding-top: 84%;
-		@include bg-image-grid;
-		background-image: url("../image/img_grid_principal.jpg");
-		p {font-size: 30px;}
-	}
-	.bg-martin {
-		padding-top: 36%;
-		@include bg-image-grid;
-		background-image: url("../image/img_grid_secundario.jpg");
-	}
-	.bg-sub-20 {
-		padding-top: 44%;
-		@include bg-image-grid;
-		background-image: url("../image/img_grid_especiales.jpg");
-	}
-	.galeria-red {
-		background-color: $red-co;
-		font-size: 25px;
-
-	}
+	.tx-up {font-weight:$weight;}
+	.p-jne {font-size:30px;}
+	.galeria-red {background-color: $red-co;font-size: 25px;color:$blanco;}
+	.galeria-red:hover {background-color:$red;color:$grey;}
 	.grey-galeria {
 		.col-md-2 {@include bg-grey;padding:2% 0%;}
-		a, h6 {color: $oscuro;}
-
+		a, h6 {
+			color: $oscuro;
+			&:hover {color:$grey-link;}
+		}
 	}
 	.top {
+		@include bg-grey;
 		border-top: 5px solid $red-co;
-		padding-bottom: 5%;
-
+	}
+	.col-xs-14 .anuncio {max-height:600px; }
+	.red-circle {
+		background-color: $grey;
+		.fa{color:$red;}
+		a:hover .fa {color:$grey-link;}
 	}
 }
 /*section noticas*/
 .noticias {
 	.col-md-10 {
+		.fa {color:$red;}
 		p, ul {width:65%;float:left;}
+		a {color:$grey-link;}
 		.img-noticias {width:35%;float:left;}
-		border-bottom: 1px solid grey;
+		border-bottom: 1px solid $grey-link;
 		.redes img {width:25%;}
+		&:hover {
+			-webkit-box-shadow: 4px -2px 14px 0px rgba(0, 0, 0, 0.59);
+			-moz-box-shadow: 4px -2px 14px 0px rgba(0, 0, 0, 0.59);
+			box-shadow: 4px -2px 14px 0px rgba(0, 0, 0, 0.59);
+			p, h4 {color:$grey-link;}
+		}
 	}
 	.col-md-10:before, .col-md-10:after {@include float-left;}
 }
