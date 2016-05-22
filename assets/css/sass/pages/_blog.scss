@@ -1,7 +1,33 @@
 /*Blog*/
-.col-xs-5 {
-	@include float-left;
-	border:1px solid $grey;
-	div {background-color:$grey;}
-
+.blog .col-xs-4 {
+	border:3px solid $grey;
+	margin-left: 5%;
+	height: 200px;
+	.blogs {
+		margin-top: 10%;
+		background-color:$grey;
+		color: $grey-link;
+		img {
+			width:35%;
+			float:left;
+			border: 2px solid $blanco;
+			-webkit-box-shadow: 0px 3px 2px 0px rgba(76, 68, 68, 0.6);
+			-moz-box-shadow: 0px 3px 2px 0px rgba(76, 68, 68, 0.6);
+			box-shadow: 0px 3px 2px 0px rgba(76, 68, 68, 0.6);
+			&:hover {
+				-moz-transform: scale(1.2) rotate(360deg) skewX(360deg);
+				-webkit-transform: scale(1.2) rotate(360deg) skewX(360deg);
+				-o-transform: scale(1.2) rotate(360deg) skewX(360deg);
+				-ms-transform: scale(1.2) rotate(360deg) skewX(360deg);
+				transform: scale(1.2) rotate(360deg) skewX(360deg);
+			}
+		}
+		p {
+			float:left;
+			width:65%;
+			padding-left: 3%;
+			span {color: $oscuro;}
+		}
+	}
 }
+.blogs:before, .blogs:after {@include float-left;}
