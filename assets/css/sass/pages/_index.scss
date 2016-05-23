@@ -94,10 +94,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .box2 {
+	padding-bottom: 0;
 	h4 {font-weight: bold;}
 	border: 1px solid grey;
-	.col-md-10 {border-bottom: 4px solid purple; 
-		span {color: purple;}
+	.purple {border-bottom: 4px solid purple; 
+		span.pr {color: purple;}
+	}
+
+	.rojo {
+		border-bottom: 4px solid #d30000;
+		span {color: #d30000;}
+	}
+
+	.yellow {
+		border-bottom: 4px solid yellow;
+		span {color: #d30000;}
+	}
+
+	.rosa {
+		border-bottom: 4px solid #FF0196;
+		span {color: #FF0196;}
 	}
 	
 }
@@ -169,12 +185,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 		margin-top: 2%;
 		font-weight: bold;
 		span {color: $oscuro;}
-		a{@include red; text-decoration: none; }
+		a{@include red; text-decoration: none; font-weight: bold; }
 		}
 }
 
 .box7 {
 	border-bottom: 1px solid grey;
+	a{@include red; text-decoration: none; }
 	h4.text-center {
 		border-top: 4px solid #811101;
 		span {background-color: #811101; color: white; padding: 2%;}

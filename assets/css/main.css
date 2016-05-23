@@ -36,14 +36,11 @@
 .border-2 {
   border-bottom: 20px hidden; }
 
-.ml-3 {
-  margin-left: 300px; }
-
 .mb-2 {
   margin-bottom: 2%; }
 
 .p-0 {
-  padding: 0%; }
+  padding: 0% !important; }
 
 .m-0 {
   margin: 0%; }
@@ -210,13 +207,26 @@ a {
       color: red; }
 
 .box2 {
+  padding-bottom: 0;
   border: 1px solid grey; }
   .box2 h4 {
     font-weight: bold; }
-  .box2 .col-md-10 {
+  .box2 .purple {
     border-bottom: 4px solid purple; }
-    .box2 .col-md-10 span {
+    .box2 .purple span.pr {
       color: purple; }
+  .box2 .rojo {
+    border-bottom: 4px solid #d30000; }
+    .box2 .rojo span {
+      color: #d30000; }
+  .box2 .yellow {
+    border-bottom: 4px solid yellow; }
+    .box2 .yellow span {
+      color: #d30000; }
+  .box2 .rosa {
+    border-bottom: 4px solid #FF0196; }
+    .box2 .rosa span {
+      color: #FF0196; }
 
 .box3 {
   border-top: 4px solid #768696; }
@@ -288,10 +298,14 @@ a {
       color: #101417; }
     .box6 p a {
       color: #d30000;
-      text-decoration: none; }
+      text-decoration: none;
+      font-weight: bold; }
 
 .box7 {
   border-bottom: 1px solid grey; }
+  .box7 a {
+    color: #d30000;
+    text-decoration: none; }
   .box7 h4.text-center {
     border-top: 4px solid #811101; }
     .box7 h4.text-center span {
