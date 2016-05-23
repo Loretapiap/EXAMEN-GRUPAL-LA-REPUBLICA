@@ -35,7 +35,7 @@ li {display: inline-block;}
 }
 /*section noticas*/
 .noticias {
-	.col-md-10 {
+	.col-md-16, .col-md-8 {
 		.fa {color:$red;}
 		p, ul {width:65%;float:left;}
 		a {color:$grey-link;}
@@ -49,7 +49,8 @@ li {display: inline-block;}
 			p, h4 {color:$grey-link;}
 		}
 	}
-	.col-md-10:before, .col-md-10:after {@include float-left;}
+	.col-md-16:before, .col-md-16:after {@include float-left;}
+	.col-md-8:before, .col-md-8:after {@include float-left;}
 }
 
 /*Parte baja de index*/
