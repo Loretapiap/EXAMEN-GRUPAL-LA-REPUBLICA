@@ -1,1 +1,20 @@
 /*Header*/
+header {
+	@include bg-grey;
+	text-transform: uppercase;
+	display: inline;
+	small {font-weight: bold; }
+	p {float: left;}
+
+
+			.fa-facebook {@include fb;}
+			.fa-twitter {@include tw;}
+			.fa-google-plus {@include gp;}
+			.fa-envelope {@include mail;}
+			.fa-rss {@include rss;}
+}
+
+.col-md-16 nav{
+	@include nav-red;
+	button {@include btn-rd;}
+}

@@ -1,1 +1,10 @@
 /*Footer*/
+
+footer {@include bg-grey;
+	ul {
+		display:block;
+		li {list-style: none;}
+	}
+	div.col-md-4 {border-right: 3px ridge white;}
+	div.row .col-md-12 {border-top: 3px ridge white;}
+}
