@@ -1,5 +1,6 @@
 /*index*/
 li {display: inline-block;}
+a {text-decoration: none;}
 .home {
 	h1 {font-weight: $weight;}
 	.nav {
@@ -56,6 +57,7 @@ li {display: inline-block;}
 /*Parte baja de index*/
 
 .nw {position: relative; border: 1px solid grey; padding: 0;
+	a {color: white;}
 	h4 {@include red; position: relative; z-index: 1001; font-weight: bold;}
 
 
@@ -92,6 +94,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .box2 {
+	h4 {font-weight: bold;}
 	border: 1px solid grey;
 	.col-md-10 {border-bottom: 4px solid purple; 
 		span {color: purple;}
@@ -121,3 +124,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 		span {color: $oscuro; font-weight: bold;}
 		}
 }
+
+.box5 { 
+	margin-top: 10%;
+	img {
+		width:53%;
+		float:left;
+		border: 2px solid $blanco;
+		-webkit-box-shadow: 0px 3px 2px 0px rgba(76, 68, 68, 0.6);
+		-moz-box-shadow: 0px 3px 2px 0px rgba(76, 68, 68, 0.6);
+		box-shadow: 0px 3px 2px 0px rgba(76, 68, 68, 0.6);
+		}
+	p {
+		float:left;
+		margin-top: 5%;
+		font-weight: bold;
+		width:47%;
+		padding: 5%  5% 0 0 ;
+		span {color: $oscuro;}
+		a{@include red; text-decoration: none; }
+		}
+}
+

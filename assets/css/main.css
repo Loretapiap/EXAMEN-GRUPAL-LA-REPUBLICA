@@ -92,6 +92,9 @@ footer {
 li {
   display: inline-block; }
 
+a {
+  text-decoration: none; }
+
 .home h1 {
   font-weight: 600; }
 .home .nav .bg-negro {
@@ -169,6 +172,8 @@ li {
   position: relative;
   border: 1px solid grey;
   padding: 0; }
+  .nw a {
+    color: white; }
   .nw h4 {
     color: #d30000;
     position: relative;
@@ -206,6 +211,8 @@ li {
 
 .box2 {
   border: 1px solid grey; }
+  .box2 h4 {
+    font-weight: bold; }
   .box2 .col-md-10 {
     border-bottom: 4px solid purple; }
     .box2 .col-md-10 span {
@@ -231,6 +238,27 @@ li {
     .box4 p span {
       color: #101417;
       font-weight: bold; }
+
+.box5 {
+  margin-top: 10%; }
+  .box5 img {
+    width: 53%;
+    float: left;
+    border: 2px solid #ffffff;
+    -webkit-box-shadow: 0px 3px 2px 0px rgba(76, 68, 68, 0.6);
+    -moz-box-shadow: 0px 3px 2px 0px rgba(76, 68, 68, 0.6);
+    box-shadow: 0px 3px 2px 0px rgba(76, 68, 68, 0.6); }
+  .box5 p {
+    float: left;
+    margin-top: 5%;
+    font-weight: bold;
+    width: 47%;
+    padding: 5% 5% 0 0; }
+    .box5 p span {
+      color: #101417; }
+    .box5 p a {
+      color: #d30000;
+      text-decoration: none; }
 
 /*Contacto*/
 .contacto input, .contacto textarea {
