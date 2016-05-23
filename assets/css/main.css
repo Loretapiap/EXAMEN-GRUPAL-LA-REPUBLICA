@@ -85,6 +85,9 @@ footer {
     border-top: 3px ridge white; }
 
 /*media queries*/
+@media (max-width: 768px) {
+  .anuncios {
+    display: none; } }
 /*index*/
 li {
   display: inline-block; }
