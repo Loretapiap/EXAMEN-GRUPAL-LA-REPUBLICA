@@ -53,3 +53,10 @@
 		text-shadow: -2px 1px 0px white;
 	}
 }
+
+
+/*border-top*/
+
+@mixin galeria {
+	border-top: 4px solid $galeria;
+}

@@ -77,6 +77,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 /*Aside*/
 
 .boletin {
-	background-image: url(../../../../image/trama_square.jpg);
+	background-image: url("../image/trama_square.jpg");
 	background-repeat: repeat;
+	div.box {
+		background-color: white;
+		padding: 3%;
+	}
+}
+
+.box2 {
+	border: 1px solid grey;
+	.col-md-10 {border-bottom: 4px solid purple; 
+		span {color: purple;}
+	}
+	
+}
+
+.box3 {
+	@include galeria;
 }

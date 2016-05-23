@@ -4,6 +4,7 @@
 /*colores redes sociales*/
 /*estilos*/
 /*redes*/
+/*border-top*/
 /*Globals*/
 .pd-0 {
   padding: 0; }
@@ -40,6 +41,9 @@
 
 .ml-3 {
   margin-left: 300px; }
+
+.border-2 {
+  border-bottom: 20px hidden; }
 
 /*Header*/
 header {
@@ -173,8 +177,21 @@ footer {
 
 /*Aside*/
 .boletin {
-  background-image: url(../../../../image/trama_square.jpg);
+  background-image: url("../image/trama_square.jpg");
   background-repeat: repeat; }
+  .boletin div.box {
+    background-color: white;
+    padding: 3%; }
+
+.box2 {
+  border: 1px solid grey; }
+  .box2 .col-md-10 {
+    border-bottom: 4px solid purple; }
+    .box2 .col-md-10 span {
+      color: purple; }
+
+.box3 {
+  border-top: 4px solid #768696; }
 
 /*Contacto*/
 /*Columnista*/
