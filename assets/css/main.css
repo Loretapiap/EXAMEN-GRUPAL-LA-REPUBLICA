@@ -92,6 +92,9 @@ li {
 a {
   text-decoration: none; }
 
+button a, button a:hover {
+  color: white; }
+
 .home h1 {
   font-weight: 600; }
 .home .nav .bg-negro {

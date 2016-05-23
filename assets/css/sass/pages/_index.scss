@@ -1,6 +1,7 @@
 /*index*/
 li {display: inline-block;}
 a {text-decoration: none;}
+button a, button a:hover{color: white;}
 .home {
 	h1 {font-weight: $weight;}
 	.nav {
