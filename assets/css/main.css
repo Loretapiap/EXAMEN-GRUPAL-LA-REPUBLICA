@@ -88,7 +88,7 @@ footer {
     border-top: 3px ridge white; }
 
 /*media queries*/
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   footer, .anuncios, .banners, .aside, .box2, .box6, .box9, .anuncio2 {
     display: none; }
 
