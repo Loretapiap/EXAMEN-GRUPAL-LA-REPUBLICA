@@ -1,5 +1,10 @@
 /*media queries*/
 
 @media (max-width: 1000px) {
-	.anuncios {display: none;}
+	.anuncios, .banners, .aside, .box1 {display: none;}
+	.tx-up {font-size: 100% !important;}
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+	.tx-up {font-size: 0.625em;}
 }
