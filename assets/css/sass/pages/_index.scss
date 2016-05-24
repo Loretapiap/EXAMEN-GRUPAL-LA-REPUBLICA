@@ -14,7 +14,7 @@ button a, button a:hover{color: white;}
 		}
 	}
 	.tx-up {font-weight:$weight;}
-	.p-jne {font-size:30px;}
+	.p-jne {font-size:1.875em;}
 	.galeria-red {background-color: $red-co;font-size: 25px;color:$blanco;}
 	.galeria-red:hover {background-color:$red;color:$grey;}
 	.grey-galeria {
@@ -63,7 +63,7 @@ button a, button a:hover{color: white;}
 
 
   .overlay{
-  	.tx-up {position: absolute; color: white; bottom: 0;}
+  	.tx-up {position: absolute; color: white; bottom: 0;width:100%;}
   position: absolute;
   top: 0;
   left: 0;

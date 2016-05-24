@@ -45,6 +45,9 @@
 .m-0 {
   margin: 0%; }
 
+.cien {
+  width: 100%; }
+
 /*Header*/
 header {
   background-color: #f4f5f7;
@@ -111,7 +114,7 @@ button a, button a:hover {
 .home .tx-up {
   font-weight: 600; }
 .home .p-jne {
-  font-size: 30px; }
+  font-size: 1.875em; }
 .home .galeria-red {
   background-color: #b20000;
   font-size: 25px;
@@ -200,7 +203,8 @@ button a, button a:hover {
     .nw .overlay .tx-up {
       position: absolute;
       color: white;
-      bottom: 0; }
+      bottom: 0;
+      width: 100%; }
 
 /*Aside*/
 .boletin {
