@@ -1,7 +1,7 @@
 /*media queries*/
 
-@media (max-width: 768px) {
-	footer, .anuncios, .banners, .aside, .box2, .box6, .box9, .anuncio2 {display: none;}
+@media (max-width: 960px) {
+	footer, .anuncios, .banners, .aside, .box2, .box6, .box9, .anuncio2, .nav3 {display: none;}
 	.tx-up {font-size: 100% !important;}
 		.blog {
 		.col-xs-5 {
@@ -10,3 +10,4 @@
 		}
 	}
 }
+

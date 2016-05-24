@@ -89,7 +89,7 @@ footer {
 
 /*media queries*/
 @media (max-width: 768px) {
-  footer, .anuncios, .banners, .aside, .box2, .box6, .box9, .anuncio2 {
+  footer, .anuncios, .banners, .aside, .box2, .box6, .box9, .anuncio2, .nav3 {
     display: none; }
 
   .tx-up {
