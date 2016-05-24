@@ -10,4 +10,14 @@
 	// 	.col-md-16:before, .col-md-16:after {clear:left;}
 	// 	.col-md-8:before, .col-md-8:after {clear:left;}
 	// }
+	.blog {
+		.col-xs-5 {
+		min-height: 250px;
+		margin-left: 2% !important;
+		}
+	}
+	footer {
+		visibility: hidden;
+		display:none;
+	}
 }

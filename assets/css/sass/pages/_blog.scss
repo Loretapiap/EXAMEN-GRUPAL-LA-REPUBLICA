@@ -1,9 +1,8 @@
 /*Blog*/
-.blog .col-xs-4 {
+.blog .col-md-4 {
 	border:3px solid $grey;
 	margin-left: 5%;
-	height: 200px;
-	.blogs, .clm {
+	.blogs {
 		margin-top: 10%;
 		background-color:$grey;
 		color: $grey-link;
