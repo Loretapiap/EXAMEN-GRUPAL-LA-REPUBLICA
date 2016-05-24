@@ -1,8 +1,12 @@
 /*media queries*/
 
 @media (max-width: 768px) {
-	.anuncios, .banners, .aside, .box2, .box6, .box9, .anuncio2 {display: none;}
+	footer, .anuncios, .banners, .aside, .box2, .box6, .box9, .anuncio2 {display: none;}
 	.tx-up {font-size: 100% !important;}
-
+		.blog {
+		.col-xs-5 {
+		min-height: 250px;
+		margin-left: 2% !important;
+		}
+	}
 }
-
